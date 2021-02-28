@@ -4,3 +4,13 @@ This project’s aim is to simulate parallel programming interface for relief al
 
 # Running
 
+~~~~~~~~~~~~~~~{.cpp}
+   mpic++ -o executable ./main.cpp
+    
+~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~{.cpp}
+   mpirun --oversubscribe -np Number executable ./test.tsv
+~~~~~~~~~~~~~~~
+
+
+
